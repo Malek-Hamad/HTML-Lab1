@@ -1,0 +1,96 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding: 20px;
+}
+.imagePosition{
+    position: relative;
+    top: 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    /* background-color: #009688; */
+    color:brown;
+    
+}
+.imagePosition:hover{
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+#tableDescription{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border-spacing: 5px;
+    border: 10px solid;
+    border-color: black;
+    /* background-color:gray; */
+}
+table thead td{
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-color: #f35246;
+    padding: 30px;
+ }
+table td{
+    padding: 75px;
+    /* background-color: #EEE; */
+    /* border: 3px solid #ccc; */
+    border: 10px solid #ccc;
+    text-align: center;
+}
+
+tr:hover.a{
+    background-color:lightpink;
+}
+
+tr:hover.b{
+    background-color:darkgoldenrod;
+}
+
+tr:hover.c{
+    background-color:lightblue;
+}
+
+.sticy{
+    position: sticky;
+    top: 0px;
+}
+
+.sticyBotton{
+    position: sticky;
+    bottom: 0px;
+}
+.sticyBotton{
+    position: sticky;
+    top: 0;
+}
+.summary{
+    text-align: center;
+    font-size:30px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    color:brown;
+}
+.malek{
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+
